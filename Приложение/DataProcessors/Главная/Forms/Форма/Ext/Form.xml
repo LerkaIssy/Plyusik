@@ -1,0 +1,1086 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnReopen">ПриПовторномОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Шапка" id="29">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ШапкаРасширеннаяПодсказка" id="30"/>
+			<ChildItems>
+				<Button name="Рейтинг" id="63">
+					<Type>UsualButton</Type>
+					<Width>25</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Height>2</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<CommandName>Form.Command.Рейтинг</CommandName>
+					<BackColor>style:AuxiliaryNavigationColor</BackColor>
+					<Font ref="style:NormalTextFont" height="12" kind="StyleItem" scale="100"/>
+					<ExtendedTooltip name="РейтингРасширеннаяПодсказка" id="64"/>
+				</Button>
+				<Button name="Достижения" id="65">
+					<Type>UsualButton</Type>
+					<Width>25</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Height>2</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<CommandName>Form.Command.Достижения</CommandName>
+					<BackColor>style:AuxiliaryNavigationColor</BackColor>
+					<Font ref="style:NormalTextFont" height="12" kind="StyleItem" scale="100"/>
+					<ExtendedTooltip name="ДостиженияРасширеннаяПодсказка" id="66"/>
+				</Button>
+				<Button name="Telegram" id="108">
+					<Type>UsualButton</Type>
+					<Width>25</Width>
+					<Height>2</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<CommandName>Form.Command.Telegram</CommandName>
+					<BackColor>style:AuxiliaryNavigationColor</BackColor>
+					<Font ref="style:NormalTextFont" height="12" kind="StyleItem" scale="100"/>
+					<ExtendedTooltip name="TelegramРасширеннаяПодсказка" id="109"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="СтраницыДашборда" id="1">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы дашборда</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>None</PagesRepresentation>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<ExtendedTooltip name="СтраницыДашбордаРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Page name="ПерваяСтраница" id="3">
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="ПерваяСтраницаРасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<UsualGroup name="ЛеваяГруппа" id="5">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Левая группа</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Левая группа</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ЛеваяГруппаРасширеннаяПодсказка" id="6"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаАктуальности" id="75">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа актуальности</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа актуальности</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаАктуальностиРасширеннаяПодсказка" id="76"/>
+									<ChildItems>
+										<Button name="ОбновитьДанные" id="70">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.ОбновитьДанные</CommandName>
+											<TextColor>style:ButtonTextColor</TextColor>
+											<BackColor>style:ButtonBackColor</BackColor>
+											<ExtendedTooltip name="ОбновитьДанныеРасширеннаяПодсказка" id="71"/>
+										</Button>
+										<LabelField name="АктуальностьДанных" id="72">
+											<DataPath>АктуальностьДанных</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Данные актуальны на</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="АктуальностьДанныхКонтекстноеМеню" id="73"/>
+											<ExtendedTooltip name="АктуальностьДанныхРасширеннаяПодсказка" id="74"/>
+										</LabelField>
+									</ChildItems>
+								</UsualGroup>
+								<LabelDecoration name="ДоскаПочета" id="31">
+									<TextColor>web:Maroon</TextColor>
+									<Font ref="style:LargeTextFont" kind="StyleItem"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Доска почета</v8:content>
+										</v8:item>
+									</Title>
+									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+									<ContextMenu name="ДоскаПочетаКонтекстноеМеню" id="32"/>
+									<ExtendedTooltip name="ДоскаПочетаРасширеннаяПодсказка" id="33"/>
+								</LabelDecoration>
+								<Table name="Топ10" id="7">
+									<Representation>List</Representation>
+									<ReadOnly>true</ReadOnly>
+									<MaxHeight>30</MaxHeight>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<DataPath>Топ10</DataPath>
+									<BackColor>style:FormBackColor</BackColor>
+									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="Топ10КонтекстноеМеню" id="8"/>
+									<AutoCommandBar name="Топ10КоманднаяПанель" id="9">
+										<Autofill>false</Autofill>
+									</AutoCommandBar>
+									<ExtendedTooltip name="Топ10РасширеннаяПодсказка" id="10"/>
+									<SearchStringAddition name="Топ10СтрокаПоиска" id="11">
+										<AdditionSource>
+											<Item>Топ10</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="Топ10СтрокаПоискаКонтекстноеМеню" id="12"/>
+										<ExtendedTooltip name="Топ10СтрокаПоискаРасширеннаяПодсказка" id="13"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="Топ10СостояниеПросмотра" id="14">
+										<AdditionSource>
+											<Item>Топ10</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="Топ10СостояниеПросмотраКонтекстноеМеню" id="15"/>
+										<ExtendedTooltip name="Топ10СостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="Топ10УправлениеПоиском" id="17">
+										<AdditionSource>
+											<Item>Топ10</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="Топ10УправлениеПоискомКонтекстноеМеню" id="18"/>
+										<ExtendedTooltip name="Топ10УправлениеПоискомРасширеннаяПодсказка" id="19"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="Топ10МестоВТопе" id="20">
+											<DataPath>Топ10.МестоВТопе</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Место</v8:content>
+												</v8:item>
+											</Title>
+											<HorizontalAlign>Center</HorizontalAlign>
+											<EditMode>EnterOnInput</EditMode>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="Топ10МестоВТопеКонтекстноеМеню" id="21"/>
+											<ExtendedTooltip name="Топ10МестоВТопеРасширеннаяПодсказка" id="22"/>
+										</InputField>
+										<InputField name="Топ10Студент" id="23">
+											<DataPath>Топ10.Студент</DataPath>
+											<HorizontalAlign>Center</HorizontalAlign>
+											<EditMode>EnterOnInput</EditMode>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="Топ10СтудентКонтекстноеМеню" id="24"/>
+											<ExtendedTooltip name="Топ10СтудентРасширеннаяПодсказка" id="25"/>
+										</InputField>
+										<InputField name="Топ10Рейтинг" id="26">
+											<DataPath>Топ10.Рейтинг</DataPath>
+											<HorizontalAlign>Center</HorizontalAlign>
+											<EditMode>EnterOnInput</EditMode>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="Топ10РейтингКонтекстноеМеню" id="27"/>
+											<ExtendedTooltip name="Топ10РейтингРасширеннаяПодсказка" id="28"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+								<UsualGroup name="Группа2" id="81">
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="82"/>
+									<ChildItems>
+										<Button name="ДокументНачислениеРейтингаСоздать" id="83">
+											<Type>UsualButton</Type>
+											<CommandName>Document.НачислениеРейтинга.StandardCommand.Create</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Начислить рейтинг студенту</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="ДокументНачислениеРейтингаСоздатьРасширеннаяПодсказка" id="84"/>
+										</Button>
+										<Button name="СправочникПовышениеРейтингаСоздать" id="85">
+											<Type>UsualButton</Type>
+											<CommandName>Catalog.ПовышениеРейтинга.StandardCommand.Create</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Создать причину повышения рейтинга</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="СправочникПовышениеРейтингаСоздатьРасширеннаяПодсказка" id="86"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ПраваяГруппа" id="34">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Правая группа</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Правая группа</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ПраваяГруппаРасширеннаяПодсказка" id="35"/>
+							<ChildItems>
+								<LabelDecoration name="РейтингГрупп" id="58">
+									<TextColor>web:Maroon</TextColor>
+									<Font ref="style:LargeTextFont" kind="StyleItem"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Рейтинг групп</v8:content>
+										</v8:item>
+									</Title>
+									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+									<ContextMenu name="РейтингГруппКонтекстноеМеню" id="59"/>
+									<ExtendedTooltip name="РейтингГруппРасширеннаяПодсказка" id="60"/>
+								</LabelDecoration>
+								<Table name="ТопГрупп" id="36">
+									<Representation>List</Representation>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<DataPath>ТопГрупп</DataPath>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="ТопГруппКонтекстноеМеню" id="37"/>
+									<AutoCommandBar name="ТопГруппКоманднаяПанель" id="38">
+										<Autofill>false</Autofill>
+									</AutoCommandBar>
+									<ExtendedTooltip name="ТопГруппРасширеннаяПодсказка" id="39"/>
+									<SearchStringAddition name="ТопГруппСтрокаПоиска" id="40">
+										<AdditionSource>
+											<Item>ТопГрупп</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ТопГруппСтрокаПоискаКонтекстноеМеню" id="41"/>
+										<ExtendedTooltip name="ТопГруппСтрокаПоискаРасширеннаяПодсказка" id="42"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="ТопГруппСостояниеПросмотра" id="43">
+										<AdditionSource>
+											<Item>ТопГрупп</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ТопГруппСостояниеПросмотраКонтекстноеМеню" id="44"/>
+										<ExtendedTooltip name="ТопГруппСостояниеПросмотраРасширеннаяПодсказка" id="45"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="ТопГруппУправлениеПоиском" id="46">
+										<AdditionSource>
+											<Item>ТопГрупп</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="ТопГруппУправлениеПоискомКонтекстноеМеню" id="47"/>
+										<ExtendedTooltip name="ТопГруппУправлениеПоискомРасширеннаяПодсказка" id="48"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="ТопГруппМесто" id="49">
+											<DataPath>ТопГрупп.Место</DataPath>
+											<HorizontalAlign>Center</HorizontalAlign>
+											<EditMode>EnterOnInput</EditMode>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ТопГруппМестоКонтекстноеМеню" id="50"/>
+											<ExtendedTooltip name="ТопГруппМестоРасширеннаяПодсказка" id="51"/>
+										</InputField>
+										<InputField name="ТопГруппГруппа" id="52">
+											<DataPath>ТопГрупп.Группа</DataPath>
+											<HorizontalAlign>Center</HorizontalAlign>
+											<EditMode>EnterOnInput</EditMode>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ТопГруппГруппаКонтекстноеМеню" id="53"/>
+											<ExtendedTooltip name="ТопГруппГруппаРасширеннаяПодсказка" id="54"/>
+										</InputField>
+										<InputField name="ТопГруппОбщийРейтингГруппы" id="55">
+											<DataPath>ТопГрупп.ОбщийРейтингГруппы</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Рейтинг группы</v8:content>
+												</v8:item>
+											</Title>
+											<HorizontalAlign>Center</HorizontalAlign>
+											<EditMode>EnterOnInput</EditMode>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ТопГруппОбщийРейтингГруппыКонтекстноеМеню" id="56"/>
+											<ExtendedTooltip name="ТопГруппОбщийРейтингГруппыРасширеннаяПодсказка" id="57"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="ВтораяСтраница" id="61">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вторая страница</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вторая страница</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ВтораяСтраницаРасширеннаяПодсказка" id="62"/>
+					<ChildItems>
+						<UsualGroup name="ЛеваяГруппа2Стр" id="99">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Левая группа2 стр</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Левая группа2 стр</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ЛеваяГруппа2СтрРасширеннаяПодсказка" id="100"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаАктуальности1" id="90">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа актуальности</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа актуальности</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаАктуальности1РасширеннаяПодсказка" id="91"/>
+									<ChildItems>
+										<Button name="ОбновитьДанныеДостижения" id="92">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.ОбновитьДанныеДостижения</CommandName>
+											<ExtendedTooltip name="ОбновитьДанныеДостиженияРасширеннаяПодсказка" id="93"/>
+										</Button>
+										<LabelField name="АктуальностьДанных1" id="94">
+											<DataPath>АктуальностьДанных</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Данные актуальны на</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="АктуальностьДанных1КонтекстноеМеню" id="95"/>
+											<ExtendedTooltip name="АктуальностьДанных1РасширеннаяПодсказка" id="96"/>
+										</LabelField>
+									</ChildItems>
+								</UsualGroup>
+								<LabelDecoration name="ЗаголовокДиаграммы" id="101">
+									<TextColor>web:Maroon</TextColor>
+									<Font ref="style:NormalTextFont" height="12" kind="StyleItem" scale="100"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Число студентов, получивших достижения: </v8:content>
+										</v8:item>
+									</Title>
+									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+									<ContextMenu name="ЗаголовокДиаграммыКонтекстноеМеню" id="102"/>
+									<ExtendedTooltip name="ЗаголовокДиаграммыРасширеннаяПодсказка" id="103"/>
+								</LabelDecoration>
+								<ChartField name="РедкостьДостижений" id="87">
+									<DataPath>РедкостьДостижений</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="РедкостьДостиженийКонтекстноеМеню" id="88"/>
+									<ExtendedTooltip name="РедкостьДостиженийРасширеннаяПодсказка" id="89"/>
+								</ChartField>
+								<Button name="СправочникДостиженияСоздать" id="77">
+									<Type>UsualButton</Type>
+									<CommandName>Catalog.Достижения.StandardCommand.Create</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Создать новое достижение</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="СправочникДостиженияСоздатьРасширеннаяПодсказка" id="78"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ПраваяГруппа2Стр" id="97">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Правая группа2 стр</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Правая группа2 стр</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ПраваяГруппа2СтрРасширеннаяПодсказка" id="98"/>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="ТретьяСтраница" id="104">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Третья страница</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Третья страница</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="ТретьяСтраницаРасширеннаяПодсказка" id="105"/>
+					<ChildItems>
+						<UsualGroup name="ЛеваяГруппа3Стр" id="106">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Левая группа3 стр</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Левая группа3 стр</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ЛеваяГруппа3СтрРасширеннаяПодсказка" id="107"/>
+							<ChildItems>
+								<Button name="ЗапуститьБота" id="110">
+									<Type>UsualButton</Type>
+									<Width>25</Width>
+									<Height>2</Height>
+									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+									<CommandName>Form.Command.ЗапуститьБота</CommandName>
+									<TextColor>style:FormTextColor</TextColor>
+									<BackColor>style:AuxiliaryNavigationColor</BackColor>
+									<BorderColor>style:AccentColor</BorderColor>
+									<Font ref="style:NormalTextFont" height="12" kind="StyleItem" scale="100"/>
+									<ExtendedTooltip name="ЗапуститьБотаРасширеннаяПодсказка" id="111"/>
+								</Button>
+								<Button name="СправочникКомандыTelegramСоздать" id="112">
+									<Type>Hyperlink</Type>
+									<CommandName>Catalog.КомандыTelegram.StandardCommand.Create</CommandName>
+									<TextColor>style:AccentColor</TextColor>
+									<Font ref="style:NormalTextFont" kind="StyleItem" scale="100"/>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Добавить новую команду бота</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="СправочникКомандыTelegramСоздатьРасширеннаяПодсказка" id="113"/>
+								</Button>
+								<Button name="РегистрСведенийTelegram_ИсторияСообщенийОткрытьСписок" id="151">
+									<Type>Hyperlink</Type>
+									<CommandName>InformationRegister.Telegram_ИсторияСообщений.StandardCommand.OpenList</CommandName>
+									<TextColor>style:AccentColor</TextColor>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>История сообщений</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="РегистрСведенийTelegram_ИсторияСообщенийОткрытьСписокРасширеннаяПодсказка" id="152"/>
+								</Button>
+								<Button name="РегистрСведенийTelegram_ПользователиОткрытьСписок" id="153">
+									<Type>Hyperlink</Type>
+									<CommandName>InformationRegister.Telegram_Пользователи.StandardCommand.OpenList</CommandName>
+									<TextColor>style:AccentColor</TextColor>
+									<ExtendedTooltip name="РегистрСведенийTelegram_ПользователиОткрытьСписокРасширеннаяПодсказка" id="154"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ПраваяГруппа3Стр" id="114">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Правая группа3 стр</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Правая группа3 стр</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ПраваяГруппа3СтрРасширеннаяПодсказка" id="115"/>
+							<ChildItems>
+								<LabelDecoration name="Декорация2" id="135">
+									<TextColor>web:Maroon</TextColor>
+									<Font ref="style:NormalTextFont" height="12" kind="StyleItem" scale="100"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Общая рассылка</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация2КонтекстноеМеню" id="136"/>
+									<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="137"/>
+								</LabelDecoration>
+								<InputField name="ГрупповаяРассылка" id="116">
+									<DataPath>ГрупповаяРассылка</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сообщение</v8:content>
+										</v8:item>
+									</Title>
+									<TitleFont ref="style:NormalTextFont" kind="StyleItem" scale="100"/>
+									<TitleLocation>Top</TitleLocation>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>40</MaxWidth>
+									<MaxHeight>40</MaxHeight>
+									<HorizontalStretch>true</HorizontalStretch>
+									<VerticalStretch>false</VerticalStretch>
+									<MultiLine>true</MultiLine>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ГрупповаяРассылкаКонтекстноеМеню" id="117"/>
+									<ExtendedTooltip name="ГрупповаяРассылкаРасширеннаяПодсказка" id="118"/>
+								</InputField>
+								<Button name="ОтправитьРассылку" id="119">
+									<Type>UsualButton</Type>
+									<Height>2</Height>
+									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+									<CommandName>Form.Command.ОтправитьРассылку</CommandName>
+									<Font ref="style:NormalTextFont" kind="StyleItem" scale="100"/>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отправить всем</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ОтправитьРассылкуРасширеннаяПодсказка" id="120"/>
+								</Button>
+								<LabelDecoration name="Декорация1" id="126">
+									<TextColor>web:Maroon</TextColor>
+									<Font ref="style:NormalTextFont" height="12" kind="StyleItem" scale="100"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сообщение пользователю</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация1КонтекстноеМеню" id="127"/>
+									<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="128"/>
+								</LabelDecoration>
+								<InputField name="Группа" id="129">
+									<DataPath>Объект.Группа</DataPath>
+									<TitleLocation>Top</TitleLocation>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ГруппаКонтекстноеМеню" id="130"/>
+									<ExtendedTooltip name="ГруппаРасширеннаяПодсказка" id="131"/>
+								</InputField>
+								<InputField name="Студент" id="132">
+									<DataPath>Объект.Студент</DataPath>
+									<TitleLocation>Top</TitleLocation>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СтудентКонтекстноеМеню" id="133"/>
+									<ExtendedTooltip name="СтудентРасширеннаяПодсказка" id="134"/>
+								</InputField>
+								<InputField name="СообщениеДляПользователя" id="123">
+									<DataPath>СообщениеДляПользователя</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сообщение</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Top</TitleLocation>
+									<MaxWidth>40</MaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<VerticalStretch>false</VerticalStretch>
+									<MultiLine>true</MultiLine>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СообщениеДляПользователяКонтекстноеМеню" id="124"/>
+									<ExtendedTooltip name="СообщениеДляПользователяРасширеннаяПодсказка" id="125"/>
+								</InputField>
+								<Button name="ОтправитьСообщениеПользователю" id="121">
+									<Type>UsualButton</Type>
+									<Height>2</Height>
+									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+									<CommandName>Form.Command.ОтправитьСообщениеПользователю</CommandName>
+									<Font ref="style:NormalTextFont" kind="StyleItem" scale="100"/>
+									<ExtendedTooltip name="ОтправитьСообщениеПользователюРасширеннаяПодсказка" id="122"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="СовсемПраваяГруппа" id="138">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Совсем правая группа</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Совсем правая группа</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="СовсемПраваяГруппаРасширеннаяПодсказка" id="139"/>
+							<ChildItems>
+								<LabelDecoration name="Декорация3" id="140">
+									<TextColor>web:Maroon</TextColor>
+									<Font ref="style:NormalTextFont" height="12" kind="StyleItem" scale="100"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Рассылка для группы</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация3КонтекстноеМеню" id="141"/>
+									<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="142"/>
+								</LabelDecoration>
+								<InputField name="ГруппаРас" id="143">
+									<DataPath>Объект.Группа</DataPath>
+									<TitleLocation>Top</TitleLocation>
+									<Width>30</Width>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ГруппаРасКонтекстноеМеню" id="144"/>
+									<ExtendedTooltip name="ГруппаРасРасширеннаяПодсказка" id="145"/>
+								</InputField>
+								<InputField name="СообщениеДляГруппы" id="148">
+									<DataPath>СообщениеДляГруппы</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сообщение</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Top</TitleLocation>
+									<HorizontalStretch>true</HorizontalStretch>
+									<VerticalStretch>false</VerticalStretch>
+									<MultiLine>true</MultiLine>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СообщениеДляГруппыКонтекстноеМеню" id="149"/>
+									<ExtendedTooltip name="СообщениеДляГруппыРасширеннаяПодсказка" id="150"/>
+								</InputField>
+								<Button name="ОтправитьСообщениеГруппе" id="146">
+									<Type>UsualButton</Type>
+									<Height>2</Height>
+									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+									<CommandName>Form.Command.ОтправитьСообщениеГруппе</CommandName>
+									<Font ref="style:NormalTextFont" kind="StyleItem" scale="100"/>
+									<ExtendedTooltip name="ОтправитьСообщениеГруппеРасширеннаяПодсказка" id="147"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.Главная</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ДиаграммаАктивностиГрупп" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Диаграмма активности групп</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.2/data/chart">d5p1:Chart</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Топ10" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Топ10</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="МестоВТопе" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Место в топе</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>6</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Студент" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Студент</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Рейтинг" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Рейтинг</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ТопГрупп" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Топ групп</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Место" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Место</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Группа" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ОбщийРейтингГруппы" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Общий рейтинг группы</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="АктуальностьДанных" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Актуальность данных</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="РедкостьДостижений" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Редкость достижений</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.2/data/chart">d5p1:Chart</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ГрупповаяРассылка" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Групповая рассылка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СообщениеДляПользователя" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Групповая рассылка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СообщениеДляГруппы" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сообщение для группы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Рейтинг" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рейтинг</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рейтинг</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Рейтинг</Action>
+		</Command>
+		<Command name="Достижения" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Достижения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рейтинг</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Достижения</Action>
+		</Command>
+		<Command name="ОбновитьДанные" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить данные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить данные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьДанные</Action>
+		</Command>
+		<Command name="ОбновитьДанныеДостижения" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить данные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить данные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьДанныеДостижения</Action>
+		</Command>
+		<Command name="Telegram" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Telegram</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Telegram</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Telegram</Action>
+		</Command>
+		<Command name="ЗапуститьБота" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить бота</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить бота</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗапуститьБота</Action>
+		</Command>
+		<Command name="ОтправитьРассылку" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить рассылку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить рассылку</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтправитьРассылку</Action>
+		</Command>
+		<Command name="ОтправитьСообщениеПользователю" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить сообщение пользователю</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить сообщение пользователю</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтправитьСообщениеПользователю</Action>
+		</Command>
+		<Command name="ОтправитьСообщениеГруппе" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить сообщение группе</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить сообщение группе</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтправитьСообщениеГруппе</Action>
+		</Command>
+	</Commands>
+</Form>
