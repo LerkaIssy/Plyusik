@@ -257,11 +257,13 @@
 			<Role>Администратор</Role>
 			<Role>Преподаватель</Role>
 			<Role>Студент</Role>
+			<Role>НовыйПользователь</Role>
 			<CommonModule>ОбщийСерверныйМодуль</CommonModule>
 			<CommonModule>ОбщийКлиентскийМодуль</CommonModule>
 			<CommonModule>Telegram_Сервер</CommonModule>
 			<ScheduledJob>ЗапускБотов</ScheduledJob>
 			<Constant>СтартовыйРейтинг</Constant>
+			<CommonForm>ФормаРегистрации</CommonForm>
 			<Catalog>Студенты</Catalog>
 			<Catalog>Группы</Catalog>
 			<Catalog>Достижения</Catalog>

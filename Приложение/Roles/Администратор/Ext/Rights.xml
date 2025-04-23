@@ -1992,6 +1992,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.ФормаРегистрации</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ПокупкаЗаБонусы.Attribute.Сумма</name>
 		<right>
 			<name>View</name>

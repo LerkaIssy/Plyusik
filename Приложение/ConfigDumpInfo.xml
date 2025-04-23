@@ -69,6 +69,8 @@
 		<Metadata name="Catalog.Студенты.Form.ФормаСписка.Form" id="e0773234-0a0a-4f83-8844-b602c2a8bdae.0" configVersion="c856d9d5e370e747a88b42d7a6a5e40300000000"/>
 		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента" id="55776fb8-5d79-48e0-879f-ed860b888a57" configVersion="98f560f22c33d14e85922988877c019000000000"/>
 		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента.Form" id="55776fb8-5d79-48e0-879f-ed860b888a57.0" configVersion="19be5591396a8048993b2c1454d01a7000000000"/>
+		<Metadata name="CommonForm.ФормаРегистрации" id="775b9d44-f146-41b3-a965-a22189c68cb1" configVersion="371daa39c6c6f34389c5f87f37acc72f00000000"/>
+		<Metadata name="CommonForm.ФормаРегистрации.Form" id="775b9d44-f146-41b3-a965-a22189c68cb1.0" configVersion="62819a98fd0d834aa6fa6023b60a6af400000000"/>
 		<Metadata name="CommonModule.Telegram_Сервер" id="c73bf6a5-30ce-4e73-a932-de4ac35e43ee" configVersion="b2cdc276c9189e419a5f5f70e2e1da3e00000000"/>
 		<Metadata name="CommonModule.Telegram_Сервер.Module" id="c73bf6a5-30ce-4e73-a932-de4ac35e43ee.0" configVersion="4692e0d2eed2e84f8a7fb92405ca942a00000000"/>
 		<Metadata name="CommonModule.ОбщийКлиентскийМодуль" id="384bda15-f5ff-4937-97f4-1d27261b3ddd" configVersion="4b09a9a0a58d224b820bf3bb41a1157500000000"/>
@@ -83,9 +85,9 @@
 		<Metadata name="CommonPicture.Рейтинг.Picture" id="c68db16d-70b4-4e0f-a6dd-22ef4d116eaa.0" configVersion="86397adb14ebfd44ae2e70c137255d4800000000"/>
 		<Metadata name="CommonPicture.УчебнаяЧасть" id="5bb04c87-cefd-424e-9a8e-e6793a0892f6" configVersion="cfe9ddb2e702994d982d98c7d74e752c00000000"/>
 		<Metadata name="CommonPicture.УчебнаяЧасть.Picture" id="5bb04c87-cefd-424e-9a8e-e6793a0892f6.0" configVersion="0773fde0ec69ed449b3552893663648100000000"/>
-		<Metadata name="Configuration.Конфигурация" id="39a72083-55f6-4554-bb36-593c59cbd669" configVersion="176d480074b2274c8cfac3f6383a831c00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="39a72083-55f6-4554-bb36-593c59cbd669" configVersion="4a11980c31ccc54da0a9af6d710e33b500000000"/>
 		<Metadata name="Configuration.Конфигурация.ClientApplicationInterface" id="943f7e37-1f7e-4352-a6d0-82f6e2ab95a7.b" configVersion="e571ca9bae685f43838ce25e73728b9a00000000"/>
-		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="943f7e37-1f7e-4352-a6d0-82f6e2ab95a7.8" configVersion="de740bce9af1334fb39489ac833a983900000000"/>
+		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="943f7e37-1f7e-4352-a6d0-82f6e2ab95a7.8" configVersion="c7b864d7a0fa064189307a2e19deb58200000000"/>
 		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="943f7e37-1f7e-4352-a6d0-82f6e2ab95a7.9" configVersion="a8dd1649e319444a8e8d23fdde3d75cc00000000"/>
 		<Metadata name="Configuration.Конфигурация.MainSectionPicture" id="943f7e37-1f7e-4352-a6d0-82f6e2ab95a7.c" configVersion="d0d1c34a90c46240aa33c59c583de91a00000000"/>
 		<Metadata name="Configuration.Конфигурация.Splash" id="943f7e37-1f7e-4352-a6d0-82f6e2ab95a7.2" configVersion="046e420bb0bb86428125b6f729cabce400000000"/>
@@ -181,12 +183,14 @@
 		<Metadata name="Report.ТопСтудентовПоРейтингу.Form.ФормаОтчета.Form" id="17548627-9482-4f7d-8b99-52933f04b3a6.0" configVersion="78e9cb1040948f4eacbce8f6ad89fdf600000000"/>
 		<Metadata name="Report.ТопСтудентовПоРейтингу.Template.ОсновнаяСхемаКомпоновкиДанных" id="a1cc4b1b-36a8-4610-84bc-519b3c8942a0" configVersion="bd9cabb1c1633a4492b18e33804ff45700000000"/>
 		<Metadata name="Report.ТопСтудентовПоРейтингу.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="a1cc4b1b-36a8-4610-84bc-519b3c8942a0.0" configVersion="71d6f5c03f0ff24ea9138e57ea40764b00000000"/>
-		<Metadata name="Role.Администратор" id="2b2748cf-d8c3-4328-a845-88ec20b8bd59" configVersion="b2aac82433291b44bfd9b68a6ab1234600000000"/>
-		<Metadata name="Role.Администратор.Rights" id="2b2748cf-d8c3-4328-a845-88ec20b8bd59.0" configVersion="71b08d78e0d3324180a0dbc2b71c964900000000"/>
-		<Metadata name="Role.Преподаватель" id="fdc85b92-9b91-4eac-95cc-f87507eb1535" configVersion="ee3400bf426b2f4aaa8512dddf521ad400000000"/>
-		<Metadata name="Role.Преподаватель.Rights" id="fdc85b92-9b91-4eac-95cc-f87507eb1535.0" configVersion="1db6da78ece8da40804824efea8b069800000000"/>
-		<Metadata name="Role.Студент" id="a5aa1c3e-4905-4c86-97e6-6ce308483d1e" configVersion="19e65cfacd9ac7489a01bb701ff62b7200000000"/>
-		<Metadata name="Role.Студент.Rights" id="a5aa1c3e-4905-4c86-97e6-6ce308483d1e.0" configVersion="c996a8fccbff9748b620ed085f70577300000000"/>
+		<Metadata name="Role.Администратор" id="2b2748cf-d8c3-4328-a845-88ec20b8bd59" configVersion="ca2f4669fa1a384c8ae640759020c33800000000"/>
+		<Metadata name="Role.Администратор.Rights" id="2b2748cf-d8c3-4328-a845-88ec20b8bd59.0" configVersion="189c2116b8162644a2f1b0d476fb5c3f00000000"/>
+		<Metadata name="Role.НовыйПользователь" id="1bdff429-3e6a-4d98-978a-f56c522c64d4" configVersion="ed3689872616e04dad441bdfb163522d00000000"/>
+		<Metadata name="Role.НовыйПользователь.Rights" id="1bdff429-3e6a-4d98-978a-f56c522c64d4.0" configVersion="45d52fe081302746aa932ee70e9114d800000000"/>
+		<Metadata name="Role.Преподаватель" id="fdc85b92-9b91-4eac-95cc-f87507eb1535" configVersion="33fabf4baa913942a250ed08c7efd0c600000000"/>
+		<Metadata name="Role.Преподаватель.Rights" id="fdc85b92-9b91-4eac-95cc-f87507eb1535.0" configVersion="a09fa0a74fd6954ab048b3255947ec8900000000"/>
+		<Metadata name="Role.Студент" id="a5aa1c3e-4905-4c86-97e6-6ce308483d1e" configVersion="ac55618e7b4e5b49aa6723995e90228d00000000"/>
+		<Metadata name="Role.Студент.Rights" id="a5aa1c3e-4905-4c86-97e6-6ce308483d1e.0" configVersion="61e202886d93e340b7a4f374c6a0075600000000"/>
 		<Metadata name="ScheduledJob.ЗапускБотов" id="e75cc1c8-bd1e-488d-87b2-f059bb7442e3" configVersion="fc4180b127bcab4b84760c6c0493782000000000"/>
 		<Metadata name="ScheduledJob.ЗапускБотов.Schedule" id="e75cc1c8-bd1e-488d-87b2-f059bb7442e3.0" configVersion="4e012af20c6e4a4989f4fb6e94dce84400000000"/>
 		<Metadata name="Style.Основной" id="19278507-1968-4742-ab4c-d2b9857d6bf3" configVersion="86e94386a6849a46a718b8880856ebe800000000"/>
