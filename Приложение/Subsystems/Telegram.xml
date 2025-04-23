@@ -24,6 +24,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Telegram_Пользователи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Telegram_ИсторияСообщений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КомандыTelegram</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Файлы</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

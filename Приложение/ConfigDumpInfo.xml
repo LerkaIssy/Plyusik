@@ -169,17 +169,17 @@
 		<Metadata name="Report.ТопСтудентовПоРейтингу.Form.ФормаОтчета.Form" id="17548627-9482-4f7d-8b99-52933f04b3a6.0" configVersion="78e9cb1040948f4eacbce8f6ad89fdf600000000"/>
 		<Metadata name="Report.ТопСтудентовПоРейтингу.Template.ОсновнаяСхемаКомпоновкиДанных" id="a1cc4b1b-36a8-4610-84bc-519b3c8942a0" configVersion="bd9cabb1c1633a4492b18e33804ff45700000000"/>
 		<Metadata name="Report.ТопСтудентовПоРейтингу.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="a1cc4b1b-36a8-4610-84bc-519b3c8942a0.0" configVersion="71d6f5c03f0ff24ea9138e57ea40764b00000000"/>
-		<Metadata name="Role.Администратор" id="2b2748cf-d8c3-4328-a845-88ec20b8bd59" configVersion="5eec4c1d44ca1b449238cca0a5c2e07100000000"/>
-		<Metadata name="Role.Администратор.Rights" id="2b2748cf-d8c3-4328-a845-88ec20b8bd59.0" configVersion="39be57ff8b95484ba3dc7113e13d700700000000"/>
-		<Metadata name="Role.Преподаватель" id="fdc85b92-9b91-4eac-95cc-f87507eb1535" configVersion="343e39a841e49a41aaf4739d0c552eb800000000"/>
-		<Metadata name="Role.Преподаватель.Rights" id="fdc85b92-9b91-4eac-95cc-f87507eb1535.0" configVersion="29141502cb899647a38d38300b2fe0c700000000"/>
-		<Metadata name="Role.Студент" id="a5aa1c3e-4905-4c86-97e6-6ce308483d1e" configVersion="94b5c5dce43bd3479fe86cbae3d9bfd100000000"/>
-		<Metadata name="Role.Студент.Rights" id="a5aa1c3e-4905-4c86-97e6-6ce308483d1e.0" configVersion="5d75bd0d173358478b2a6e84ac73d0b800000000"/>
+		<Metadata name="Role.Администратор" id="2b2748cf-d8c3-4328-a845-88ec20b8bd59" configVersion="2adac81eb061e24cac97f458f24b78a500000000"/>
+		<Metadata name="Role.Администратор.Rights" id="2b2748cf-d8c3-4328-a845-88ec20b8bd59.0" configVersion="71b08d78e0d3324180a0dbc2b71c964900000000"/>
+		<Metadata name="Role.Преподаватель" id="fdc85b92-9b91-4eac-95cc-f87507eb1535" configVersion="05c893c409b19b4f97b0ab5f6984263c00000000"/>
+		<Metadata name="Role.Преподаватель.Rights" id="fdc85b92-9b91-4eac-95cc-f87507eb1535.0" configVersion="1db6da78ece8da40804824efea8b069800000000"/>
+		<Metadata name="Role.Студент" id="a5aa1c3e-4905-4c86-97e6-6ce308483d1e" configVersion="f28128263c9521449dabbdc1f145c4a900000000"/>
+		<Metadata name="Role.Студент.Rights" id="a5aa1c3e-4905-4c86-97e6-6ce308483d1e.0" configVersion="c996a8fccbff9748b620ed085f70577300000000"/>
 		<Metadata name="ScheduledJob.ЗапускБотов" id="e75cc1c8-bd1e-488d-87b2-f059bb7442e3" configVersion="fc4180b127bcab4b84760c6c0493782000000000"/>
 		<Metadata name="ScheduledJob.ЗапускБотов.Schedule" id="e75cc1c8-bd1e-488d-87b2-f059bb7442e3.0" configVersion="4e012af20c6e4a4989f4fb6e94dce84400000000"/>
 		<Metadata name="Style.Основной" id="19278507-1968-4742-ab4c-d2b9857d6bf3" configVersion="86e94386a6849a46a718b8880856ebe800000000"/>
 		<Metadata name="Style.Основной.Style" id="19278507-1968-4742-ab4c-d2b9857d6bf3.0" configVersion="6b6b2d4a79ede346ae28c1cdb238b47300000000"/>
-		<Metadata name="Subsystem.Telegram" id="d5e65ae7-c4eb-40d6-8a69-b9d97a566dec" configVersion="99f540ceaa5cd84390a68b3fdb2af50400000000"/>
+		<Metadata name="Subsystem.Telegram" id="d5e65ae7-c4eb-40d6-8a69-b9d97a566dec" configVersion="b1c0c41a7b258242b26e1e11ccc1b19f00000000"/>
 		<Metadata name="Subsystem.БонуснаяСистема" id="d226510b-2b20-478e-a711-2883c6327d32" configVersion="d822c21291ee59459ce91f8ff6d59bb500000000"/>
 		<Metadata name="Subsystem.БонуснаяСистема.CommandInterface" id="d226510b-2b20-478e-a711-2883c6327d32.1" configVersion="2114b3bbe4078b48a4772cc8c124493c00000000"/>
 		<Metadata name="Subsystem.РейтинговаяСистема" id="57b2cc66-705b-444f-ae88-0c661c02403b" configVersion="3ae6f573666a294fa8e99451b69d664100000000"/>
