@@ -31,8 +31,10 @@
 		<Metadata name="Catalog.КомандыTelegram" id="46ec5e6f-9e68-4f2c-bb2e-82c074779730" configVersion="e16485b12e5a2043ad943c77f2a3b1fa00000000">
 			<Metadata name="Catalog.КомандыTelegram.Attribute.Описание" id="5a6d6792-7c97-4db6-b720-902d911365e3"/>
 		</Metadata>
-		<Metadata name="Catalog.Курсы" id="9ab45537-e37f-44f6-a52a-a63e5e848f9d" configVersion="1d3f293f4d0f1b4eb1ee47472977baf400000000">
+		<Metadata name="Catalog.Курсы" id="9ab45537-e37f-44f6-a52a-a63e5e848f9d" configVersion="c6c5c9ecd00f214a95f6ef492c34042900000000">
 			<Metadata name="Catalog.Курсы.Attribute.Описание" id="2c823219-40be-410d-9745-8b8b051c784d"/>
+			<Metadata name="Catalog.Курсы.TabularSection.Группы" id="760c2b9f-aa3c-45f3-9448-9d4573ad23a6"/>
+			<Metadata name="Catalog.Курсы.TabularSection.Группы.Attribute.Группа" id="cb56daef-48a5-4e3c-92f5-e196f87ac58c"/>
 		</Metadata>
 		<Metadata name="Catalog.Магазин" id="9d3c0e6f-35ee-447f-bdd1-c2a47381d5a8" configVersion="2ece18fe035eb74c968b82626882aa6300000000">
 			<Metadata name="Catalog.Магазин.Attribute.Стоимость" id="b0aa8b2b-f90b-4d09-91c6-870173767350"/>
