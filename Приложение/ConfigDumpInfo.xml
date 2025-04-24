@@ -49,7 +49,7 @@
 			<Metadata name="Catalog.ПовышениеРейтинга.Attribute.Стоимость" id="3b138511-3ae2-4657-8807-e54632404170"/>
 			<Metadata name="Catalog.ПовышениеРейтинга.Attribute.Условие" id="df6e5c34-82e2-445d-b4aa-27b9b444808f"/>
 		</Metadata>
-		<Metadata name="Catalog.Преподаватели" id="bcf42861-6f65-4598-a762-bb2c3f3ff9e7" configVersion="eb99452351b59a488db5cd19a387231f00000000">
+		<Metadata name="Catalog.Преподаватели" id="bcf42861-6f65-4598-a762-bb2c3f3ff9e7" configVersion="b81dfc3715cd49478f397861f225322d00000000">
 			<Metadata name="Catalog.Преподаватели.TabularSection.КурсыПреподавателя" id="00eddb70-e5a6-4aeb-bb7f-66752f1c504d"/>
 			<Metadata name="Catalog.Преподаватели.Attribute.ДатаРождения" id="1975c28c-548b-40e1-8209-ea86fcec07cd"/>
 			<Metadata name="Catalog.Преподаватели.Attribute.Отчество" id="1b2338d7-c020-41b4-89c5-a1cef62534be"/>
@@ -58,6 +58,8 @@
 			<Metadata name="Catalog.Преподаватели.Attribute.Фамилия" id="db22b0da-b824-45ab-a0fe-5d50d4432774"/>
 			<Metadata name="Catalog.Преподаватели.TabularSection.КурсыПреподавателя.Attribute.Курс" id="ee6d7493-b2c1-4769-ba51-c315e42da702"/>
 		</Metadata>
+		<Metadata name="Catalog.Преподаватели.Form.ФормаЭлемента" id="a31113d9-d40f-4d70-99f6-0a47031f01cf" configVersion="d48fc7d5c483c647910d38ae5fcef45500000000"/>
+		<Metadata name="Catalog.Преподаватели.Form.ФормаЭлемента.Form" id="a31113d9-d40f-4d70-99f6-0a47031f01cf.0" configVersion="1925b547e262444f8afc57dbcdedf5c000000000"/>
 		<Metadata name="Catalog.Студенты" id="1d3a4995-04c6-49d7-94e3-9e2df632a6ca" configVersion="d5dc3e2849a47f4ab55cf1ac41a3d3a500000000">
 			<Metadata name="Catalog.Студенты.Attribute.Телефон" id="0cbf1cb9-d4fa-4ff1-83c8-dc284feeae89"/>
 			<Metadata name="Catalog.Студенты.Attribute.Отчество" id="41e26515-7b9c-4981-934b-a2808e205ebd"/>
