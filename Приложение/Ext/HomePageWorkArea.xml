@@ -9,6 +9,16 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Item>
+		<Item>
+			<Form>CommonForm.ФормаРегистрации</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.Преподаватель">false</xr:Value>
+				<xr:Value name="Role.Студент">false</xr:Value>
+			</Visibility>
+		</Item>
 	</LeftColumn>
 	<RightColumn/>
 </HomePageWorkArea>

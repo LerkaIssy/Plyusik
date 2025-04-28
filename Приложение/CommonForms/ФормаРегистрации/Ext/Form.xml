@@ -41,6 +41,12 @@
 					<ContextMenu name="ГруппаКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="ГруппаРасширеннаяПодсказка" id="18"/>
 				</InputField>
+				<InputField name="Никнейм" id="26">
+					<DataPath>Никнейм</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НикнеймКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="НикнеймРасширеннаяПодсказка" id="28"/>
+				</InputField>
 				<InputField name="Фамилия" id="4">
 					<DataPath>Фамилия</DataPath>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
@@ -65,6 +71,33 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="НомерТелефонаКонтекстноеМеню" id="14"/>
 					<ExtendedTooltip name="НомерТелефонаРасширеннаяПодсказка" id="15"/>
+				</InputField>
+				<InputField name="Email" id="23">
+					<DataPath>Email</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="EmailКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="EmailРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="Пароль" id="29">
+					<DataPath>Пароль</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПарольКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ПарольРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="ПовторПароль" id="32">
+					<DataPath>ПовторПароль</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Повторите пароль</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПовторПарольКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ПовторПарольРасширеннаяПодсказка" id="34"/>
+					<Events>
+						<Event name="OnChange">ПовторПарольПриИзменении</Event>
+					</Events>
 				</InputField>
 				<Button name="Зарегистрироваться" id="19">
 					<Type>UsualButton</Type>
@@ -148,6 +181,66 @@
 				<v8:Type>cfg:CatalogRef.Группы</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="Email" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Email</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Никнейм" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Никнейм</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Пароль" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пароль</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПовторПароль" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Повтор пароль</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="Зарегистрироваться" id="1">
@@ -163,6 +256,7 @@
 					<v8:content>Зарегистрироваться</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>Зарегистрироваться</Action>
 		</Command>
 	</Commands>
 </Form>
