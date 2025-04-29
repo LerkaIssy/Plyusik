@@ -22,9 +22,33 @@
 					<v8:content>Шапка</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ШапкаРасширеннаяПодсказка" id="30"/>
 			<ChildItems>
+				<Button name="Профиль" id="155">
+					<Type>UsualButton</Type>
+					<UserVisible>
+						<xr:Common>true</xr:Common>
+						<xr:Value name="Role.Администратор">false</xr:Value>
+						<xr:Value name="Role.Преподаватель">false</xr:Value>
+						<xr:Value name="Role.НовыйПользователь">false</xr:Value>
+					</UserVisible>
+					<Width>25</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Height>2</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<CommandName>Form.Command.Профиль</CommandName>
+					<BackColor>style:AuxiliaryNavigationColor</BackColor>
+					<Font ref="style:NormalTextFont" height="12" kind="StyleItem" scale="100"/>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Профиль</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ПрофильРасширеннаяПодсказка" id="156"/>
+				</Button>
 				<Button name="Рейтинг" id="63">
 					<Type>UsualButton</Type>
 					<Width>25</Width>
@@ -742,6 +766,21 @@
 						</UsualGroup>
 					</ChildItems>
 				</Page>
+				<Page name="ПрофильСтудента" id="157">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Профиль студента</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Профиль студента</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ПрофильСтудентаРасширеннаяПодсказка" id="158"/>
+				</Page>
 			</ChildItems>
 		</Pages>
 	</ChildItems>
@@ -1086,6 +1125,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОтправитьСообщениеГруппе</Action>
+		</Command>
+		<Command name="Профиль" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Профиль</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Профиль</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Профиль</Action>
 		</Command>
 	</Commands>
 </Form>
