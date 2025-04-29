@@ -29,6 +29,7 @@
 					<v8:content>Регистраци</v8:content>
 				</v8:item>
 			</ToolTip>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 			<HorizontalAlign>Left</HorizontalAlign>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
@@ -67,7 +68,6 @@
 				</InputField>
 				<InputField name="НомерТелефона" id="13">
 					<DataPath>НомерТелефона</DataPath>
-					<Mask>+7</Mask>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="НомерТелефонаКонтекстноеМеню" id="14"/>
 					<ExtendedTooltip name="НомерТелефонаРасширеннаяПодсказка" id="15"/>
