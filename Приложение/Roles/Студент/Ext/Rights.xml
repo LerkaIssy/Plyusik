@@ -45,4 +45,11 @@
 			<value>false</value>
 		</right>
 	</object>
+	<object>
+		<name>Subsystem.Telegram</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
 </Rights>
