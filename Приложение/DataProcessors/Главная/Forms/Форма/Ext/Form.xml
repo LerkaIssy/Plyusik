@@ -476,6 +476,11 @@
 					</ChildItems>
 				</Page>
 				<Page name="ТретьяСтраница" id="104">
+					<UserVisible>
+						<xr:Common>true</xr:Common>
+						<xr:Value name="Role.Студент">false</xr:Value>
+						<xr:Value name="Role.НовыйПользователь">false</xr:Value>
+					</UserVisible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>

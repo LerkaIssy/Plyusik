@@ -254,6 +254,7 @@
 			<CommonPicture>Бонусы</CommonPicture>
 			<CommonPicture>УчебнаяЧасть</CommonPicture>
 			<CommonPicture>Telegram</CommonPicture>
+			<SessionParameter>ТекущийСтудент</SessionParameter>
 			<Role>Администратор</Role>
 			<Role>Преподаватель</Role>
 			<Role>Студент</Role>
