@@ -161,6 +161,11 @@
 				</LabelField>
 			</ChildItems>
 		</Table>
+		<Button name="Достижения" id="47">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.Достижения</CommandName>
+			<ExtendedTooltip name="ДостиженияРасширеннаяПодсказка" id="48"/>
+		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
