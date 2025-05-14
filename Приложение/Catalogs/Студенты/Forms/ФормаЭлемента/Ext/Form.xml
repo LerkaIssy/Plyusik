@@ -166,6 +166,12 @@
 			<CommandName>Form.Command.Достижения</CommandName>
 			<ExtendedTooltip name="ДостиженияРасширеннаяПодсказка" id="48"/>
 		</Button>
+		<InputField name="Никнейм" id="49">
+			<DataPath>Объект.Никнейм</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НикнеймКонтекстноеМеню" id="50"/>
+			<ExtendedTooltip name="НикнеймРасширеннаяПодсказка" id="51"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">

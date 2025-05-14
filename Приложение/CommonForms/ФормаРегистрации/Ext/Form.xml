@@ -60,17 +60,17 @@
 					<ContextMenu name="ИмяКонтекстноеМеню" id="8"/>
 					<ExtendedTooltip name="ИмяРасширеннаяПодсказка" id="9"/>
 				</InputField>
-				<InputField name="ДатаРождения" id="35">
-					<DataPath>ДатаРождения</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДатаРожденияКонтекстноеМеню" id="36"/>
-					<ExtendedTooltip name="ДатаРожденияРасширеннаяПодсказка" id="37"/>
-				</InputField>
 				<InputField name="Отчество" id="10">
 					<DataPath>Отчество</DataPath>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ОтчествоКонтекстноеМеню" id="11"/>
 					<ExtendedTooltip name="ОтчествоРасширеннаяПодсказка" id="12"/>
+				</InputField>
+				<InputField name="ДатаРождения" id="35">
+					<DataPath>ДатаРождения</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаРожденияКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ДатаРожденияРасширеннаяПодсказка" id="37"/>
 				</InputField>
 				<InputField name="НомерТелефона" id="13">
 					<DataPath>НомерТелефона</DataPath>
