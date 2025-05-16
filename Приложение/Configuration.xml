@@ -254,20 +254,25 @@
 			<CommonPicture>Бонусы</CommonPicture>
 			<CommonPicture>УчебнаяЧасть</CommonPicture>
 			<CommonPicture>Telegram</CommonPicture>
+			<SessionParameter>ТекущийСтудент</SessionParameter>
 			<Role>Администратор</Role>
 			<Role>Преподаватель</Role>
 			<Role>Студент</Role>
+			<Role>НовыйПользователь</Role>
 			<CommonModule>ОбщийСерверныйМодуль</CommonModule>
 			<CommonModule>ОбщийКлиентскийМодуль</CommonModule>
 			<CommonModule>Telegram_Сервер</CommonModule>
 			<ScheduledJob>ЗапускБотов</ScheduledJob>
 			<Constant>СтартовыйРейтинг</Constant>
+			<CommonForm>ФормаРегистрации</CommonForm>
 			<Catalog>Студенты</Catalog>
 			<Catalog>Группы</Catalog>
 			<Catalog>Достижения</Catalog>
 			<Catalog>Магазин</Catalog>
 			<Catalog>ПовышениеРейтинга</Catalog>
 			<Catalog>КомандыTelegram</Catalog>
+			<Catalog>Преподаватели</Catalog>
+			<Catalog>Курсы</Catalog>
 			<Document>ПокупкаЗаБонусы</Document>
 			<Document>СтартИгры</Document>
 			<Document>НачислениеРейтинга</Document>

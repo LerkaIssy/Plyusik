@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
-	<Catalog uuid="1d3a4995-04c6-49d7-94e3-9e2df632a6ca">
+	<Catalog uuid="bcf42861-6f65-4598-a762-bb2c3f3ff9e7">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Студенты" category="Object">
-				<xr:TypeId>6e5e7123-e137-44b5-b405-4d7f3329ad50</xr:TypeId>
-				<xr:ValueId>126362df-17ba-4e91-b070-5887a1857531</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.Преподаватели" category="Object">
+				<xr:TypeId>e0a18f68-9afa-4fb2-abab-45872f4513db</xr:TypeId>
+				<xr:ValueId>09f26770-2b6d-4610-8021-5f9082ac4de6</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Студенты" category="Ref">
-				<xr:TypeId>741b1403-fbb2-40de-b192-49d848e8caf9</xr:TypeId>
-				<xr:ValueId>4974f8c7-3a70-4229-9ab3-e3ead68d51c8</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.Преподаватели" category="Ref">
+				<xr:TypeId>1fbefaad-0c25-4ecb-b0a3-4bd1fe8c29e4</xr:TypeId>
+				<xr:ValueId>d81f8894-124d-486a-bbbd-ac60aa7f4072</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Студенты" category="Selection">
-				<xr:TypeId>f87a2580-a12e-4da0-8da6-30837803d3a9</xr:TypeId>
-				<xr:ValueId>3f64432c-07cc-4eef-9a73-2abff22f1803</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.Преподаватели" category="Selection">
+				<xr:TypeId>dc458cb6-6d02-4c11-bf0e-447484f04d80</xr:TypeId>
+				<xr:ValueId>69733d63-6e5a-47ff-b4e7-bf2be8828662</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Студенты" category="List">
-				<xr:TypeId>4e3e58ad-6285-4b71-a678-cc1022e7c4fe</xr:TypeId>
-				<xr:ValueId>2c823012-e52b-4ce4-888c-a5e9d3331172</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.Преподаватели" category="List">
+				<xr:TypeId>0c87eab7-f5e6-4d74-b16d-0029fcf91c29</xr:TypeId>
+				<xr:ValueId>6f265f01-9c19-4dc8-b392-61a266ae6d50</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Студенты" category="Manager">
-				<xr:TypeId>392159c9-ff3f-4c5e-a831-fb26a737750b</xr:TypeId>
-				<xr:ValueId>d547423b-d3bc-4a91-8487-0bffbed452c5</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.Преподаватели" category="Manager">
+				<xr:TypeId>818320b8-b328-4a07-b0a1-09668195c40c</xr:TypeId>
+				<xr:ValueId>7a4131e3-0797-427e-93ae-489d060dd228</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Студенты</Name>
+			<Name>Преподаватели</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Студенты</v8:content>
+					<v8:content>Преподаватели</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -38,15 +38,13 @@
 			<LevelCount>2</LevelCount>
 			<FoldersOnTop>true</FoldersOnTop>
 			<UseStandardCommands>true</UseStandardCommands>
-			<Owners>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Группы</xr:Item>
-			</Owners>
+			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
 			<DescriptionLength>25</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
-			<CodeSeries>WithinOwnerSubordination</CodeSeries>
+			<CodeSeries>WholeCatalog</CodeSeries>
 			<CheckUnique>true</CheckUnique>
 			<Autonumbering>true</Autonumbering>
 			<DefaultPresentation>AsDescription</DefaultPresentation>
@@ -56,16 +54,16 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Студенты.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Студенты.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.Преподаватели.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.Преподаватели.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Catalog.Студенты.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultObjectForm>Catalog.Преподаватели.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
-			<DefaultListForm>Catalog.Студенты.Form.ФормаСписка</DefaultListForm>
-			<DefaultChoiceForm>Catalog.Студенты.Form.ФормаВыбора</DefaultChoiceForm>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryFolderForm/>
@@ -89,7 +87,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="4b05d631-c84a-4a96-903e-a886ef9bbfd8">
+			<Attribute uuid="db22b0da-b824-45ab-a0fe-5d50d4432774">
 				<Properties>
 					<Name>Фамилия</Name>
 					<Synonym>
@@ -118,7 +116,7 @@
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
 					<FillValue xsi:type="xs:string"/>
-					<FillChecking>ShowError</FillChecking>
+					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
 					<ChoiceParameters/>
@@ -133,7 +131,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="76f34669-907f-447f-9713-66785d834acc">
+			<Attribute uuid="b5484fd4-8831-4762-97e9-aaf021a4a6be">
 				<Properties>
 					<Name>Имя</Name>
 					<Synonym>
@@ -162,7 +160,7 @@
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
 					<FillValue xsi:type="xs:string"/>
-					<FillChecking>ShowError</FillChecking>
+					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
 					<ChoiceParameters/>
@@ -177,7 +175,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="41e26515-7b9c-4981-934b-a2808e205ebd">
+			<Attribute uuid="1b2338d7-c020-41b4-89c5-a1cef62534be">
 				<Properties>
 					<Name>Отчество</Name>
 					<Synonym>
@@ -221,7 +219,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="ed28ff86-3d5b-494d-b653-9ca272e778b1">
+			<Attribute uuid="1975c28c-548b-40e1-8209-ea86fcec07cd">
 				<Properties>
 					<Name>ДатаРождения</Name>
 					<Synonym>
@@ -249,7 +247,7 @@
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
 					<FillValue xsi:nil="true"/>
-					<FillChecking>ShowError</FillChecking>
+					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
 					<ChoiceParameters/>
@@ -264,7 +262,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="0cbf1cb9-d4fa-4ff1-83c8-dc284feeae89">
+			<Attribute uuid="caa9d06a-6043-4286-b4ca-51fcfdbe0e06">
 				<Properties>
 					<Name>Телефон</Name>
 					<Synonym>
@@ -308,53 +306,71 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="a89d5ef4-8a59-419e-b44e-e3ccea31b194">
+			<TabularSection uuid="00eddb70-e5a6-4aeb-bb7f-66752f1c504d">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.Преподаватели.КурсыПреподавателя" category="TabularSection">
+						<xr:TypeId>d4e1ad2c-82f9-4f48-a202-e54da39c61e6</xr:TypeId>
+						<xr:ValueId>1856bd9c-1e6a-4b4c-b8f4-d7fa72b273a9</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.Преподаватели.КурсыПреподавателя" category="TabularSectionRow">
+						<xr:TypeId>149c0f9f-3502-4fbe-8b4d-f962f6510d82</xr:TypeId>
+						<xr:ValueId>eebeb5da-f71b-41fe-9af0-b220b4953553</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
 				<Properties>
-					<Name>Никнейм</Name>
+					<Name>КурсыПреподавателя</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Никнейм</v8:content>
+							<v8:content>Курсы преподавателя</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>100</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
 					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
 					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
 				</Properties>
-			</Attribute>
-			<Form>ФормаСписка</Form>
+				<ChildObjects>
+					<Attribute uuid="ee6d7493-b2c1-4769-ba51-c315e42da702">
+						<Properties>
+							<Name>Курс</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Курс</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Курсы</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
 			<Form>ФормаЭлемента</Form>
-			<Form>ФормаВыбора</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
