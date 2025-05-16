@@ -830,6 +830,7 @@
 							<v8:content>Профиль студента</v8:content>
 						</v8:item>
 					</ToolTip>
+<<<<<<< HEAD
 					<Group>AlwaysHorizontal</Group>
 					<ExtendedTooltip name="ПрофильСтудентаРасширеннаяПодсказка" id="158"/>
 					<ChildItems>
@@ -1159,6 +1160,33 @@
 								</Table>
 							</ChildItems>
 						</UsualGroup>
+=======
+					<ExtendedTooltip name="ПрофильСтудентаРасширеннаяПодсказка" id="158"/>
+					<ChildItems>
+						<LabelDecoration name="Приветствие" id="159">
+							<Font ref="style:NormalTextFont" height="14" kind="StyleItem" scale="100"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Добро пожаловать, </v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПриветствиеКонтекстноеМеню" id="160"/>
+							<ExtendedTooltip name="ПриветствиеРасширеннаяПодсказка" id="161"/>
+						</LabelDecoration>
+						<LabelDecoration name="ЗаголовокДостижения" id="184">
+							<TextColor>style:ButtonTextColor</TextColor>
+							<Font ref="style:NormalTextFont" height="12" kind="StyleItem" scale="100"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ваши достижения:</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЗаголовокДостиженияКонтекстноеМеню" id="185"/>
+							<ExtendedTooltip name="ЗаголовокДостиженияРасширеннаяПодсказка" id="186"/>
+						</LabelDecoration>
+>>>>>>> 34642ff6e2a72d3d02f6c40c6ce76596a950f23e
 					</ChildItems>
 				</Page>
 			</ChildItems>
