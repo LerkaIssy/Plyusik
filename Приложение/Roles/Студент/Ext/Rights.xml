@@ -39,7 +39,6 @@
 		</right>
 	</object>
 	<object>
-<<<<<<< HEAD
 		<name>Subsystem.РейтинговаяСистема</name>
 		<right>
 			<name>View</name>
@@ -47,8 +46,6 @@
 		</right>
 	</object>
 	<object>
-=======
->>>>>>> 34642ff6e2a72d3d02f6c40c6ce76596a950f23e
 		<name>CommonForm.ФормаРегистрации</name>
 		<right>
 			<name>View</name>
