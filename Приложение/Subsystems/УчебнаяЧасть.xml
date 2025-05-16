@@ -21,6 +21,8 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Группы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Студенты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Преподаватели</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Курсы</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

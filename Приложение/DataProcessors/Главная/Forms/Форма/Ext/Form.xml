@@ -22,9 +22,33 @@
 					<v8:content>Шапка</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ШапкаРасширеннаяПодсказка" id="30"/>
 			<ChildItems>
+				<Button name="Профиль" id="155">
+					<Type>UsualButton</Type>
+					<UserVisible>
+						<xr:Common>true</xr:Common>
+						<xr:Value name="Role.Администратор">false</xr:Value>
+						<xr:Value name="Role.Преподаватель">false</xr:Value>
+						<xr:Value name="Role.НовыйПользователь">false</xr:Value>
+					</UserVisible>
+					<Width>25</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Height>2</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<CommandName>Form.Command.Профиль</CommandName>
+					<BackColor>style:AuxiliaryNavigationColor</BackColor>
+					<Font ref="style:NormalTextFont" height="12" kind="StyleItem" scale="100"/>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Профиль</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ПрофильРасширеннаяПодсказка" id="156"/>
+				</Button>
 				<Button name="Рейтинг" id="63">
 					<Type>UsualButton</Type>
 					<Width>25</Width>
@@ -49,6 +73,12 @@
 				</Button>
 				<Button name="Telegram" id="108">
 					<Type>UsualButton</Type>
+					<UserVisible>
+						<xr:Common>true</xr:Common>
+						<xr:Value name="Role.Администратор">true</xr:Value>
+						<xr:Value name="Role.Преподаватель">true</xr:Value>
+						<xr:Value name="Role.Студент">false</xr:Value>
+					</UserVisible>
 					<Width>25</Width>
 					<Height>2</Height>
 					<HorizontalStretch>true</HorizontalStretch>
@@ -476,6 +506,11 @@
 					</ChildItems>
 				</Page>
 				<Page name="ТретьяСтраница" id="104">
+					<UserVisible>
+						<xr:Common>true</xr:Common>
+						<xr:Value name="Role.Студент">false</xr:Value>
+						<xr:Value name="Role.НовыйПользователь">false</xr:Value>
+					</UserVisible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -735,6 +770,46 @@
 								</Button>
 							</ChildItems>
 						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="ПрофильСтудента" id="157">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Профиль студента</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Профиль студента</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ПрофильСтудентаРасширеннаяПодсказка" id="158"/>
+					<ChildItems>
+						<LabelDecoration name="Приветствие" id="159">
+							<Font ref="style:NormalTextFont" height="14" kind="StyleItem" scale="100"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Добро пожаловать, </v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПриветствиеКонтекстноеМеню" id="160"/>
+							<ExtendedTooltip name="ПриветствиеРасширеннаяПодсказка" id="161"/>
+						</LabelDecoration>
+						<LabelDecoration name="ЗаголовокДостижения" id="184">
+							<TextColor>style:ButtonTextColor</TextColor>
+							<Font ref="style:NormalTextFont" height="12" kind="StyleItem" scale="100"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ваши достижения:</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЗаголовокДостиженияКонтекстноеМеню" id="185"/>
+							<ExtendedTooltip name="ЗаголовокДостиженияРасширеннаяПодсказка" id="186"/>
+						</LabelDecoration>
 					</ChildItems>
 				</Page>
 			</ChildItems>
@@ -1081,6 +1156,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОтправитьСообщениеГруппе</Action>
+		</Command>
+		<Command name="Профиль" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Профиль</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Профиль</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Профиль</Action>
 		</Command>
 	</Commands>
 </Form>
