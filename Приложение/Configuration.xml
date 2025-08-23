@@ -273,10 +273,12 @@
 			<Catalog>КомандыTelegram</Catalog>
 			<Catalog>Преподаватели</Catalog>
 			<Catalog>Курсы</Catalog>
+			<Catalog>Задания</Catalog>
 			<Document>ПокупкаЗаБонусы</Document>
 			<Document>СтартИгры</Document>
 			<Document>НачислениеРейтинга</Document>
 			<Document>СписаниеРейтинга</Document>
+			<Document>ОтветСтудента</Document>
 			<Enum>Telegram_ВидСообщения</Enum>
 			<Report>РейтингСтудентовОбщий</Report>
 			<Report>РейтингСтудентов</Report>
@@ -289,6 +291,7 @@
 			<InformationRegister>Telegram_Настройки</InformationRegister>
 			<InformationRegister>Telegram_Пользователи</InformationRegister>
 			<InformationRegister>Telegram_ИсторияСообщений</InformationRegister>
+			<InformationRegister>ОтветыСтудентов</InformationRegister>
 			<AccumulationRegister>ОстаткиБонусов</AccumulationRegister>
 			<AccumulationRegister>ОстаткиРейтинга</AccumulationRegister>
 		</ChildObjects>

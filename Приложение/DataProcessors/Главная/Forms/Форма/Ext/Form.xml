@@ -183,6 +183,7 @@
 									<ReadOnly>true</ReadOnly>
 									<MaxHeight>30</MaxHeight>
 									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<VerticalStretch>false</VerticalStretch>
 									<DataPath>Топ10</DataPath>
 									<BackColor>style:FormBackColor</BackColor>
 									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
@@ -336,6 +337,7 @@
 								<Table name="ТопГрупп" id="36">
 									<Representation>List</Representation>
 									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<VerticalStretch>false</VerticalStretch>
 									<DataPath>ТопГрупп</DataPath>
 									<RowFilter xsi:nil="true"/>
 									<ContextMenu name="ТопГруппКонтекстноеМеню" id="37"/>
@@ -493,6 +495,7 @@
 								<ChartField name="РедкостьДостижений" id="87">
 									<DataPath>РедкостьДостижений</DataPath>
 									<TitleLocation>None</TitleLocation>
+									<VerticalStretch>false</VerticalStretch>
 									<ContextMenu name="РедкостьДостиженийКонтекстноеМеню" id="88"/>
 									<ExtendedTooltip name="РедкостьДостиженийРасширеннаяПодсказка" id="89"/>
 								</ChartField>
@@ -543,6 +546,7 @@
 								<ChartField name="ПокупкиЗаБонусы" id="268">
 									<DataPath>ПокупкиЗаБонусы</DataPath>
 									<TitleLocation>None</TitleLocation>
+									<VerticalStretch>false</VerticalStretch>
 									<ContextMenu name="ПокупкиЗаБонусыКонтекстноеМеню" id="269"/>
 									<ExtendedTooltip name="ПокупкиЗаБонусыРасширеннаяПодсказка" id="270"/>
 								</ChartField>
@@ -748,6 +752,20 @@
 									<CommandName>Form.Command.ОтправитьСообщениеПользователю</CommandName>
 									<Font ref="style:NormalTextFont" kind="StyleItem" scale="100"/>
 									<ExtendedTooltip name="ОтправитьСообщениеПользователюРасширеннаяПодсказка" id="122"/>
+								</Button>
+								<Button name="ОчиститьПользователя" id="274">
+									<Type>UsualButton</Type>
+									<Height>2</Height>
+									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+									<CommandName>Form.Command.ОчиститьПользователя</CommandName>
+									<Font ref="style:NormalTextFont" kind="StyleItem" scale="100"/>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Очистить пользователя</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ОчиститьПользователяРасширеннаяПодсказка" id="275"/>
 								</Button>
 							</ChildItems>
 						</UsualGroup>
@@ -1768,6 +1786,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Профиль</Action>
+		</Command>
+		<Command name="ОчиститьПользователя" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить пользователя</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить пользователя</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОчиститьПользователя</Action>
 		</Command>
 	</Commands>
 </Form>

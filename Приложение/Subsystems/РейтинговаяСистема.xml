@@ -25,6 +25,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиРейтинга</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ТопСтудентовПоРейтингу</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПовышениеРейтинга</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">98b6352f-7871-4176-82cd-737212cee9f1</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
